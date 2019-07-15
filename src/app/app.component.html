@@ -1,6 +1,18 @@
 <h3>Dependency Injection</h3>
 
-<div class="form-group">
-  <label class="control-label" for="color">Color Preference</label>
-  <input class="form-control" id="color" #color>
+<div class="container">
+  <div class="row">
+    <nav class="navbar navbar-default">
+      <ul class="nav navbar-nav">
+        <li><a routerLink="home">Home</a></li>
+        <li><a routerLink="users">Users</a></li>
+      </ul>
+
+    </nav>
+
+  </div>
+
+  <router-outlet></router-outlet>
+
+
 </div>
